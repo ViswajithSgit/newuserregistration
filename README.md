@@ -15,6 +15,6 @@
   4. Put API for updating the User profile photo in the database.
   
 #API Tests are done using Postman.
-  1. All necessary details for testing are entered under the form-data of body section.
-  2. file for the photo upload is used in form-data
-  3. user details are entered as JSON values in the userjson key under form-data
+  1. All necessary details for testing are entered as key and value under the form-data of body section.
+  2. file for the photo upload is used as 'file' key and select files in the value section in form-data.
+  3. user details are entered as JSON values in the 'userJson' key under form-data.
